@@ -46,5 +46,4 @@ Este repositório demonstra um projeto prático de consumo de API usando JavaScr
 3. Clique nos botões para carregar as diferentes seções de Pokémon.
 4. Para a seção "Pokémon por Tipo", selecione um tipo no dropdown antes de clicar em "Carregar por Tipo".
 
-Este projeto ilustra conceitos fundamentais de desenvolvimento web moderno, focando em integração com APIs externas e manipulação dinâmica de conteúdo.</content>
-<parameter name="filePath">c:\Users\rique\OneDrive\Desktop\Programação\atvd-LA\ConsumoDeAPI\README.md
+Este projeto ilustra conceitos fundamentais de desenvolvimento web moderno, focando em integração com APIs externas e manipulação dinâmica de conteúdo.
