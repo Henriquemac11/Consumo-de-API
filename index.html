@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com API de Pokémon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorando o Mundo Pokémon</h1>
+    </header>
+
+    <main>
+        <section id="lista-pokemon">
+            <h2>Lista de Pokémon</h2>
+            <p>Veja uma lista dos primeiros 10 Pokémon.</p>
+            <button id="carregar-lista">Carregar Lista</button>
+            <div id="resultado-lista"></div>
+        </section>
+
+        <section id="pokemon-aleatorio">
+            <h2>Pokémon Aleatório</h2>
+            <p>Descubra um Pokémon aleatório.</p>
+            <button id="carregar-aleatorio">Carregar Aleatório</button>
+            <div id="resultado-aleatorio"></div>
+        </section>
+
+        <section id="pokemon-por-tipo">
+            <h2>Pokémon por Tipo</h2>
+            <p>Selecione um tipo e veja Pokémon desse tipo.</p>
+            <select id="tipo-select">
+                <option value="">Selecione um tipo</option>
+                <option value="normal">Normal</option>
+                <option value="fire">Fogo</option>
+                <option value="water">Água</option>
+                <option value="grass">Grama</option>
+                <option value="electric">Elétrico</option>
+                <option value="psychic">Psíquico</option>
+                <option value="fighting">Lutador</option>
+                <option value="poison">Veneno</option>
+                <option value="ground">Terra</option>
+                <option value="flying">Voador</option>
+                <option value="bug">Inseto</option>
+                <option value="rock">Pedra</option>
+                <option value="ghost">Fantasma</option>
+                <option value="steel">Aço</option>
+                <option value="dragon">Dragão</option>
+                <option value="dark">Sombrio</option>
+                <option value="fairy">Fada</option>
+            </select>
+            <button id="carregar-por-tipo">Carregar por Tipo</button>
+            <div id="resultado-tipo"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
